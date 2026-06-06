@@ -1,0 +1,10 @@
+{
+  "name": "Meeting Intelligence System",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "forwardPorts": [5000, 8501],
+  "portsAttributes": {
+    "5000": { "label": "Flask API" },
+    "8501": { "label": "Streamlit Dashboard" }
+  }
+}
