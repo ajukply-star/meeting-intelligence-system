@@ -1,0 +1,37 @@
+{
+  "summary": "The meeting was a sprint planning session where the team discussed tasks for the upcoming week, including finishing the login feature and reviewing design mockups. They identified a risk related to API dependency and decided to schedule a follow-up meeting for progress review.",
+  "action_items": [
+    {
+      "task": "Finish the login feature",
+      "assignee": "Bob",
+      "deadline": "2023-11-03",
+      "priority": "high"
+    },
+    {
+      "task": "Review the design mockups",
+      "assignee": "Carol",
+      "deadline": "2023-11-01",
+      "priority": "high"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Schedule a follow-up meeting to review progress",
+      "rationale": "To ensure the team stays on track with their tasks"
+    }
+  ],
+  "risks": [
+    "API dependency from the backend team"
+  ],
+  "follow_up_needed": true,
+  "follow_up_reason": "To review progress on the tasks assigned",
+  "parking_lot": [
+    "Database migration discussion"
+  ],
+  "meeting_id": "224259b3-2e7e-4f8d-b415-050e6272374b",
+  "date": "2026-06-07T03:05:59.033599",
+  "participants": [
+    "alice@company.com",
+    "ajukply@gmail.com"
+  ]
+}
